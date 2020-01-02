@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+sqlalchemy = "*"
+scrapy-redis = "*"
+twisted = "*"
+scrapy = "*"
+redis = "*"
+pandas = "*"
+pymongo = "*"
+psycopg2 = "*"
+pymysql = "*"
+
+[requires]
+python_version = "3.7"
